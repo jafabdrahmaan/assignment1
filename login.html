@@ -31,18 +31,40 @@
         <div class="form-box">
             <div class="button-box">
                 <div id="btn"></div>
-                <button type="button" class="toggle-btn">log In</button>
-                <button type="button" class="toggle-btn">Sign up</button>
+                <button type="button" class="toggle-btn" on-click="login()">log In</button>
+                <button type="button" class="toggle-btn" on-click="signup()">Sign up</button>
             </div>
 
-            <form class="input-group">
+            <form id="login"  class="input-group">
                 <input type="text" class="input-field" placeholder="Enter your email address" required> 
                 <input type="text" class="input-field" placeholder="Enter your password" required> 
                 <input type="checkbox" class="check-box"><span>Remember password</span>
                 <button type="submit" class="submit-btn">Log In</button>
             </form>
+
+            <form id="signup" class="input-group">
+                <input type="text" class="input-field" placeholder="Enter your email address" required>
+                <input type="text" class="input-field" placeholder="Enter your password" required>  
+                <input type="text" class="input-field" placeholder="Confirm your password" required> 
+                <input type="checkbox" class="check-box"><span>I agree to the terms and conditions</span>
+                <button type="submit" class="submit-btn">Sign Up</button>
+            </form>
            
         </div>
+
+        <!-- toggle button -->
+        <script>
+            var x = document.getElementById("login");
+            var y = document.getElementById("signup");
+            var z = document.getElementById("btn");
+
+            function signup(){
+                x.style.left = "-400px";
+                y.style.left = "50px";
+                x.style.left = "110px";
+            }
+
+        </script>
         
     <!-- footer -->
     <section class="footer">

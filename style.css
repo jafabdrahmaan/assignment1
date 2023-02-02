@@ -310,6 +310,16 @@ img{
    position: absolute;
 }
 
+#login{
+    left: 50px;
+}
+
+#signup{
+    left: 450px;
+}
+
+
+
 /* speakers */
 .speakers{
     Width: 80%;
