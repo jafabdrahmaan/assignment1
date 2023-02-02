@@ -212,11 +212,20 @@ img{
     .welcome h4{
         font-size: 20px;
     }
+
+    .abt h4{
+        font-size: 20px;
+    }
 }
 
 
 /*---about ICACIE---*/
-
+.abt{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
 
 
 /*---Log in/Register---*/
@@ -297,6 +306,12 @@ span{
    position: absolute;
 }
 
-
+/* speakers */
+.speakers{
+    Width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
 
 
