@@ -235,11 +235,12 @@ img{
 /*---Log in/Register---*/
 .form-box{
     width: 380px;
-    height: 400px;
+    height: 500px;
     position: relative;
     margin: 6% auto;
     background: #fff;
     padding: 5px;
+    overflow: hidden;
 }
 
 .button-box{
