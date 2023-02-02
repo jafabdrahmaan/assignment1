@@ -338,4 +338,14 @@ span{
     box-shadow: 0 0 20px 0 rgb(0,125,190);
 }
 
+/* Sponsors */
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
 
+.table td, .table th{
+    padding: 12px 15px;
+    border: 1px solid black;
+    text-align: center;
+}
