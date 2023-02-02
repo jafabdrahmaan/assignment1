@@ -221,10 +221,6 @@ img{
         flex-direction: column;
     }
 
-    .container .box{
-        flex-direction: column;
-    }
-
 }
 
 
@@ -451,6 +447,24 @@ img{
     text-decoration: none;
     font-weight: bolder; 
 
+}
+
+@media only screen and  (max-width: 700px){
+    .container .box{
+        flex-direction: column;
+    }
+
+    .container .box .dream{
+        width: 100%;
+    }
+
+    .container.heading{
+        width: 100%;
+    }
+
+    .container.heading h3{
+        font-size: 3em;
+    }
 }
 
 
