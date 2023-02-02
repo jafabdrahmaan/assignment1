@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo1.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="sponsor.html">Sponsorship</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="speaker.html">Speakers</a></li>
+                    <li><a href="committee.html">Committee Members</a></li>
+                    <li><a href="Login.html">Log In</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-chevron-circle-down" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>ICACIE</h1>
+            <h2>8th International Conference on Advanced Computing and Intelligent Engineering <br> [ICACIE 2023]</h2>
+            <h3>Universite des Mascareignes</h3>
+            <p>July/August 2023</p>
+            <a href="about.html" class="visit-btn">Visit Us For More Information</a>
+        </div> 
+
+    </section>
+
+    <section class="contact">
+        <h1>Contact us</h1>
+        <p> For all type of queries</p>
+        <p>call us on 2167113</p>
+        <p>or</p>
+        <h1>Message us</h1>
+    </section>
+        
+    <div class="form-box1">
+        <form class="input-group1">
+            <input type="text" class="input-field" placeholder="Enter your name" required> 
+            <input type="text" class="input-field" placeholder="Designation" required> 
+            <input type="text" class="input-field" placeholder="Enter your email address" required> 
+            <input type="text" class="input-field" placeholder="Enter your mobile number (optional)"> 
+            <input type="text" class="input-field" placeholder="Comment or Message" required> 
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </div>
+
+
+    <!-- footer -->
+    <section class="footer">
+        <h5>About Us</h5>
+        <p>Universite des Mascareignes Head office Camp Levieux</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> By JAFER M. Abdool Rahmaan</p>
+    </section>
+
+<!--JavaScript for nav bar -- small screen version-->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
