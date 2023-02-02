@@ -327,6 +327,11 @@ span{
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
+    transition:0.5s;
+}
+
+.speaker-col:hover{
+    box-shadow: 0 0 20px 0 rgb(0,125,190);
 }
 
 
