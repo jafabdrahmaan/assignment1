@@ -354,3 +354,27 @@ span{
 .table th{
     background-color: rgb(193, 237, 237);
 }
+
+/* contact */
+.contact{
+    Width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+}
+.form-box1{
+    width: 280px;
+    height: 300px;
+    position: relative;
+    margin: 6% auto;
+    background:rgb(190, 224, 241);
+    padding: 5px;
+}
+
+.input-group1{
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+}
+
+
